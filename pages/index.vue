@@ -5,8 +5,7 @@
 </template>
 
 <script>
-
-import MixBlend from "../components/MixBlend";
+import MixBlend from '../components/MixBlend'
 export default {
   components: { MixBlend }
 }
@@ -21,5 +20,4 @@ export default {
   align-items: center;
   text-align: center;
 }
-
 </style>
