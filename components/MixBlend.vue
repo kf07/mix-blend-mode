@@ -22,7 +22,6 @@
         color3: '#0f0'
       })
       const handleClick = (color) => {
-        console.log(color)
         colorList.value = color
       }
       return {
