@@ -9,7 +9,6 @@
     <label>3つ目の色
       <input type="text" v-model="colors.color3" />
     </label>
-    <button type="button" @click="handleChange">色を変える</button>
   </div>
 </template>
 
@@ -25,11 +24,7 @@
     },
     setup(props,context) {
     const colors = ref(props.color)
-     const handleChange = () => {
-       context.emit('handleClick', colors.value)
-     }
      return {
-       handleChange,
        colors
      }
     }

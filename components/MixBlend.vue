@@ -5,7 +5,7 @@
       <div class="circle second-color" :style="{ backgroundColor: colorList.color2 }"></div>
       <div class="circle third-color" :style="{ backgroundColor: colorList.color3 }"></div>
     </div>
-    <ColorSelect :color=colorList @handleClick="handleClick" />
+    <ColorSelect :color=colorList />
   </div>
 </template>
 
